@@ -40,13 +40,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.14.0</version>
+            <version>4.14.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.github.pengrad</groupId>
             <artifactId>java-telegram-bot-api</artifactId>
-            <version>5.3.0</version>
+            <version>7.0.0</version>
         </dependency>
 
     </dependencies>
