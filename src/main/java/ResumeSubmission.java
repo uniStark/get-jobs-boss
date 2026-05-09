@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.TelegramNotificationBot;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -24,7 +25,7 @@ public class ResumeSubmission {
     static String loginUrl = "https://www.zhipin.com/web/user/?ka=header-login";
     static String baseUrl = "https://www.zhipin.com/web/geek/job?query=Java&page=";
     static ChromeDriver driver = new ChromeDriver();
-    static WebDriverWait wait15s = new WebDriverWait(driver, 15000);
+    static WebDriverWait wait15s = new WebDriverWait(driver, Duration.ofSeconds(15));
     static List<String> returnList = new ArrayList<>();
 
     public static void main(String[] args) {
